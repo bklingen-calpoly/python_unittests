@@ -5,7 +5,7 @@ def sum(a, b):
 def contains_numbers(alpha_num_str):
     for char in alpha_num_str:
         if char.isdigit():
-            return False 
+            return True 
     return False
 
 def div(a, b):

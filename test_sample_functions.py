@@ -5,7 +5,6 @@ import sample_functions
 def test_sum():
     num1 = 5
     num2 = 10
-    expected = 15
     assert sample_functions.sum(num1, num2) == 15
 
 def test_contains_numbers():
