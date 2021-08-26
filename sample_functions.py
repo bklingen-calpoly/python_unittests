@@ -2,11 +2,13 @@
 def sum(a, b):
     return a + b
 
+
 def contains_numbers(alpha_num_str):
     for char in alpha_num_str:
         if char.isdigit():
-            return True 
+            return True
     return False
+
 
 def div(a, b):
     return a / b
