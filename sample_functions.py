@@ -1,6 +1,7 @@
 
 def sum(a, b):
-    return a + b
+   return a + b
+    # return a * b
 
 
 def contains_numbers(alpha_num_str):

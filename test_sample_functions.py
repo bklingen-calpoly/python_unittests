@@ -14,9 +14,9 @@ def test_contains_numbers():
 
 
 
-# def test_does_not_contain_numbers():
-#     input_str = "lkqwjqlkjlkjed"
-#     assert sample_functions.contains_numbers(input_str) == False
+def test_does_not_contain_numbers():
+    input_str = "lkqwjqlkjlkjed"
+    assert sample_functions.contains_numbers(input_str) == False
 
 
 def test_div():
